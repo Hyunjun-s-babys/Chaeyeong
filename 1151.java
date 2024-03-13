@@ -6,7 +6,7 @@ public class Main {
 
         int a= sc.nextInt();
 
-        if (a<=10){
+        if (a<10){
             System.out.println("small");
 
 
