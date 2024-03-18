@@ -13,7 +13,7 @@ public class Main {
         
         else{
           
-                System.out.println("normal");
+                System.out.println("Normal");
             }
 
         }
