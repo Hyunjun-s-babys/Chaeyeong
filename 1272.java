@@ -13,23 +13,16 @@ public class Main {
         int seq;
         int sum=0;
 
-
-    
-
         for(int i=1; i<=max; i++){
 
             if(i%2==0){
 
                 seq= count*10;
                 count++;
-                
-
             
             }
-
             else{
-                seq=count;
-                
+                seq=count;     
             }
 
             if(k==i||h==i){
@@ -37,9 +30,6 @@ public class Main {
                 sum +=seq;
             }
         }
-
-        
-
         System.out.println(sum);
     }
 }
