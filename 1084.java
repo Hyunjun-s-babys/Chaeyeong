@@ -21,6 +21,6 @@ public class Main{
             }
         }
         bw.write(String.valueOf(count));
-        bw.flush();
+        bw.flush();// 남아있는 데이터 모두 출력
     }
 }
