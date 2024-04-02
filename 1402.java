@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
     
-        int n = sc.nextInt();
+        int n = sc.nextInt();//next line으로 받기
         
         int arr[] = new int[n];
 
@@ -16,7 +16,7 @@ public class Main {
 
         for(int k = arr.length - 1; k >= 0; k--){
 
-            System.out.printf("%d ", arr[k]);
+            System.out.printf("%d ", arr[k]);//reverse
         }
     }
 }
