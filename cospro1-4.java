@@ -3,7 +3,7 @@ class Solution {
         int[] counter = new int[1001]; //index는 1~1000
         for(int i = 0; i < arr.length; i++)
             counter[arr[i]]++;
-        return counter
+        return counter;
     }
     
     int func_b(int[] arr){
